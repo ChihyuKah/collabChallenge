@@ -13,7 +13,6 @@
             clearInterval(interval)
         }
     }
-
     interval = setInterval(callback,50,0);
 
 
