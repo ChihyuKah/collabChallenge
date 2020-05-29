@@ -93,6 +93,8 @@ button > a:hover{
   display: flex;
   justify-content: center;
   align-content: center;
+  height: 300px;
+  margin: 0 10px;
  
 }
 .when{
@@ -104,5 +106,7 @@ button > a:hover{
 }
 .space{
   grid-area: s;
-
+}
+.numbers{
+  
 }
