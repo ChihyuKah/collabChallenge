@@ -2,14 +2,15 @@
     let num1 = document.getElementById('number1').innerHTML;
     let num2 = document.getElementById('number2').innerHTML;
     let num3 = document.getElementById('number3').innerHTML;
+    let num4 = document.getElementById('number4').innerHTML;
 
-    console.log(num1,num2,num3);
+    console.log(num1,num2,num3,num4);
     let current = 0;
     let interval = 0;
     const callback = () => {
         let nextcount = current++;
         console.log(nextcount);
-        if (nextcount == 9) {
+        if (nextcount == num1) {
             clearInterval(interval)
         }
     }
